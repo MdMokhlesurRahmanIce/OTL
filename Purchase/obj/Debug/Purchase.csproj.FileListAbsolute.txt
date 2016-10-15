@@ -1,0 +1,5 @@
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Debug\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Debug\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\obj\Debug\Purchase.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\obj\Debug\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\obj\Debug\Purchase.pdb

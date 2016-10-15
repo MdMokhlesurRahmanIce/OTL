@@ -1,0 +1,16 @@
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\InventoryModule\bin\Release\InventoryModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\InventoryModule\bin\Release\InventoryModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\InventoryModule\bin\Release\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\InventoryModule\bin\Release\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\InventoryModule\bin\Release\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\InventoryModule\bin\Release\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\InventoryModule\obj\Release\InventoryModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\InventoryModule\obj\Release\InventoryModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\bin\Release\InventoryModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\bin\Release\InventoryModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\bin\Release\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\bin\Release\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\bin\Release\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\bin\Release\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\obj\Release\InventoryModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\obj\Release\InventoryModule.pdb

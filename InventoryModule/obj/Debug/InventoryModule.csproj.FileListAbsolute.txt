@@ -1,0 +1,34 @@
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\InventoryModule\bin\Debug\InventoryModule.dll
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\InventoryModule\bin\Debug\InventoryModule.pdb
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\InventoryModule\bin\Debug\BaseModule.dll
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\InventoryModule\bin\Debug\SecurityModule.dll
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\InventoryModule\bin\Debug\BaseModule.pdb
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\InventoryModule\bin\Debug\SecurityModule.pdb
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\InventoryModule\obj\Debug\InventoryModule.dll
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\InventoryModule\obj\Debug\InventoryModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\bin\Debug\InventoryModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\bin\Debug\InventoryModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\bin\Debug\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\bin\Debug\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\bin\Debug\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\bin\Debug\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\obj\Debug\InventoryModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\obj\Debug\InventoryModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\InventoryModule\obj\Debug\InventoryModule.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\InventoryModule\bin\Debug\InventoryModule.dll
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\InventoryModule\bin\Debug\InventoryModule.pdb
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\InventoryModule\bin\Debug\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\InventoryModule\bin\Debug\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\InventoryModule\bin\Debug\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\InventoryModule\bin\Debug\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\InventoryModule\obj\Debug\InventoryModule.dll
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\InventoryModule\obj\Debug\InventoryModule.pdb
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\InventoryModule\obj\Debug\InventoryModule.csprojResolveAssemblyReference.cache
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\InventoryModule\bin\Debug\InventoryModule.dll
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\InventoryModule\bin\Debug\InventoryModule.pdb
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\InventoryModule\bin\Debug\BaseModule.dll
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\InventoryModule\bin\Debug\SecurityModule.dll
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\InventoryModule\bin\Debug\BaseModule.pdb
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\InventoryModule\bin\Debug\SecurityModule.pdb
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\InventoryModule\obj\Debug\InventoryModule.dll
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\InventoryModule\obj\Debug\InventoryModule.pdb

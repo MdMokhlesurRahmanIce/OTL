@@ -1,0 +1,296 @@
+﻿/*!  
+Author: Aslam Iqbal
+Created: 10 March, 2013
+ */
+
+/*.textboxonfocus
+{
+    box-shadow: 0 0 10px #87AED3;
+    -webkit-box-shadow: 0 0 20px #87AED3; /* for Safari and Chrome */
+/*background: -moz-linear-gradient(center top, #D4DCE1 0pt, #EAF1F5 10%, #FFFFFF 100%) repeat scroll 0 0 transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#D4DCE1', endColorstr='#FFFFFF'); /* IE6 & IE7 */
+/*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#D4DCE1', endColorstr='#FFFFFF')"; /* IE8 */
+/*}*/
+
+/*.textbox-input
+{
+    -moz-box-sizing: content-box;
+    -moz-transition: width 0.5s ease 0s;
+    border: 1px solid #C1C1C1;
+    border-radius: 3px 3px 3px 3px;
+    display: inline;
+    float: left;
+    font-size: 100%;
+    height: 30px;
+    line-height: normal;
+    outline: 0 none;
+    padding: 0 1.5%;
+    position: relative;
+    vertical-align: baseline;
+    width: 205px;
+    z-index: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#D4DCE1', endColorstr='#FFFFFF')";
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #EAF1F5),color-stop(1, #D4DCE1)); /* Safari & Chrome */
+/*}*/
+/*Shamim-------------------------*/
+.form-wrapper
+{
+    /*background: url("images/form-bg.png") repeat scroll 0 0 #F4F4F4;     background:#F4F4F4;     border-bottom: 1px solid #CCCCCC;     border-radius: 3px 3px 3px 3px;*/ /*box-shadow: 0 0 50px #CCCCCC inset;*/
+    margin: 2px auto 0;
+    text-align: left; /* background: none repeat scroll 0 0 #F4F4F4;     border: 1px solid #BBBBBB; /* background: none repeat scroll 0 0 #E0E0E0;     border: 1px solid #BBBBBB;*/
+    display: block;
+    width: 960px; /*height: 191px;*/
+}
+.form-details
+{
+    padding: 0px 25px 0px 25px;
+    width: 896px;
+}
+.form-body
+{
+    margin: 0 0 10px 0;
+}
+.form-bottom
+{
+    padding: 0 40px 40px 40px;
+}
+.main-container
+{
+    width: 960px;
+    background: #ffffff;
+    background-repeat: repeat-y;
+    margin: 0 auto;
+    min-height: auto;
+    box-shadow: 0 0 2px #bababa;
+    -moz-box-shadow: 0 0 2px #bababa;
+    -ms-box-shadow: 0 0 2px #bababa;
+    -o-box-shadow: 0 0 2px #bababa;
+    -webkit-box-shadow: 0 0 2px #bababa;
+}
+.lblAndTxtStyle
+{
+    float: left;
+    width: 97%;
+    height: auto;
+    padding: 3px 0px;
+    margin-top: 0px;
+}
+.divlblwidth100px
+{
+    width: 35%; /* margin: 1px 5px;*/
+    padding: 4px 3px 3px;
+    float: left;
+    height: 14px;
+}
+.div80Px
+{
+    float: left;
+    width: 58%;
+    height: 15px;
+}
+.txtwidth178px
+{
+    font-size: 12px;
+    font-family: 'Microsoft Sans Serif' , Sans-Serif, Arial;
+    float: left;
+    padding: 1.5px; /* border: 1px solid #B6B3AE;*/
+    margin-left: 1px;
+    width: 93%;
+}
+a
+{
+    font-size: 11px;
+    font-family: 'Microsoft Sans Serif' , Sans-Serif, Arial;
+}
+.div182Px
+{
+    float: left;
+    width: 60%;
+    height: 17px;
+}
+/*.drpwidth180px
+{
+    font-size: 12px;
+    font-family: 'Microsoft Sans Serif' , Sans-Serif, Arial;
+    width: 93%;
+    float: left;
+    padding: 1.5px;
+    margin: 0px 0px 0px 2px;
+    border: 1px solid #B6B3AE;
+}*/
+.drpwidth99per
+{
+    font-size: 11px;
+    font-family: 'Microsoft Sans Serif' , Sans-Serif, Arial;
+    float: left;
+    padding: 1.5px; /*border: 1px solid #B6B3AE;*/
+}
+.txtwidth93px
+{
+    width: 93%;
+    float: left; /*border: 1px solid #B6B3AE;*/
+    padding: 3px 0px;
+    font-size: 11px;
+    font-family: 'Microsoft Sans Serif' , Sans-Serif, Arial;
+}
+.griddrpwidth180px
+{
+    font-size: 12px;
+    font-family: 'Microsoft Sans Serif' , Sans-Serif, Arial;
+    float: left;
+    width: 93%; /*padding: 1.5px;     margin: 0px 0px 0px 2px; border: 1px solid #B6B3AE;*/
+}
+.btnImageStyle
+{    width: 20px;
+}
+.form-header
+{
+    background: url("images/bg_header.png") repeat scroll 0 0 #FAFAFA;
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    border-top: 1px solid #FFFFFF;
+    box-shadow: 0 -5px 5px #DDDDDD inset;
+    color: #555555;
+    height: 65px;
+    line-height: 65px;
+    overflow: hidden;
+    padding: 0 40px;
+}
+.form-bottom
+{
+    padding: 0 40px 40px 40px;
+}
+div.btnRight
+{
+    float: right;
+    height: auto;
+    width: auto; /*padding: 0px 10px 0px 10px;*/
+}
+.button
+{
+    -moz-transition-duration: 0.3s;
+    -moz-transition-property: border-color;
+    background-clip: padding-box;
+    background-color: #705536;
+    background-image: -moz-linear-gradient(#8A6741, #705536);
+    border: 1px solid #614023;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.2) inset;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font: 13px/17px Tahoma,Geneva,sans-serif;
+    padding: 5px 10px 6px;
+    text-align: left;
+    text-shadow: 0 0 0 transparent, 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin-left: 5px;
+}
+/*  Fieldset  */
+.fieldset-panel
+{
+    border-width: 1px;
+}
+.fieldset-legend
+{
+    font-size: 12px;
+}
+.message-box
+{
+    color: #333333;
+    position: absolute;
+    top: 65px;
+    display: none;
+    width: 100%;
+}
+.message-box p
+{
+    font-size: 0.8em;
+    margin: 0;
+}
+.message-box .ico-text
+{
+    display: inline-block;
+    height: 16px;
+    margin: 0 4px 0 0 !important;
+    vertical-align: middle;
+    width: 16px;
+}
+.message-box .ico-alert-success
+{
+    background: url("images/ico-alerts.png") no-repeat scroll -16px 0 transparent !important;
+    cursor: pointer;
+}
+.message-box .ico-alert-error
+{
+    background: url("images/ico-alerts.png") no-repeat scroll -48px 0 transparent !important;
+    cursor: pointer;
+}
+.error
+{
+    background: none repeat scroll 0 0 #F9CDCD;
+    border-bottom: 1px solid #E8ACAC;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 15px #E8ACAC inset;
+    color: #CC3366;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+.error ul
+{
+    margin: 0;
+    padding: 0 0 0 40px;
+}
+.success
+{
+    background: none repeat scroll 0 0 #C9F7BC;
+    border-bottom: 1px solid #BBEEAE;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 15px #BBEEAE inset;
+    color: #006600;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+.global-footer
+{
+    clear: both;
+    font-size: 0.6em;
+    margin: 0 auto;
+    text-align: center;
+}
+footer
+{
+    margin: 0 2% 40px;
+}
+.header-settings
+{
+    background: url("images/user.ico") no-repeat scroll center center transparent;
+    text-indent: -9999px;
+    padding: 2px 15px;
+}
+.settings-panel
+{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background: #FF8C44;
+    margin: 1px 0 0 0;
+    min-width: 150px;
+    text-align: left;
+}
+.settings-panel ul
+{
+}
+.settings-panel ul li
+{
+    list-style: none;
+    color:White;
+}
+.settings-panel ul li a:hover
+{
+    font-weight:bold;
+    color:White;
+}
+/*End----------------------------*/

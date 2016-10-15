@@ -1,0 +1,200 @@
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\TechnoDrugs.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\TechnoDrugs.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\Antlr3.Runtime.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\DotNetOpenAuth.AspNet.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\DotNetOpenAuth.Core.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\DotNetOpenAuth.OAuth.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\DotNetOpenAuth.OpenId.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\EntityFramework.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\Microsoft.Web.Infrastructure.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\SetupModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\System.Web.Optimization.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\System.Web.Providers.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\WebGrease.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\SetupModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\EntityFramework.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\DotNetOpenAuth.Core.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\DotNetOpenAuth.OAuth.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\DotNetOpenAuth.OpenId.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\bin\DotNetOpenAuth.AspNet.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\obj\Release\TechnoDrugs.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\obj\Release\TechnoDrugs.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\TechnoDrugs\obj\Release\TechnoDrugs.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\TechnoDrugs.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\TechnoDrugs.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\Antlr3.Runtime.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\BaseModule.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\DotNetOpenAuth.AspNet.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\DotNetOpenAuth.Core.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\DotNetOpenAuth.OAuth.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\DotNetOpenAuth.OpenId.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\EntityFramework.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\Microsoft.ScriptManager.WebForms.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\Microsoft.Web.Infrastructure.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\Production.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\Purchase.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\SecurityModule.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\SetupModule.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\System.Web.Optimization.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\System.Web.Providers.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\WebGrease.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\BaseModule.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\Production.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\Purchase.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\SecurityModule.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\SetupModule.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\EntityFramework.xml
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\DotNetOpenAuth.Core.xml
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\DotNetOpenAuth.OAuth.xml
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\DotNetOpenAuth.OpenId.xml
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\bin\DotNetOpenAuth.AspNet.xml
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\obj\Release\TechnoDrugs.csprojResolveAssemblyReference.cache
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\obj\Release\TechnoDrugs.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\TechnoDrugs\obj\Release\TechnoDrugs.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\TechnoDrugs.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\TechnoDrugs.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\Antlr3.Runtime.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\DotNetOpenAuth.AspNet.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\DotNetOpenAuth.Core.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\DotNetOpenAuth.OAuth.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\DotNetOpenAuth.OpenId.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\EntityFramework.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\Microsoft.Web.Infrastructure.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\Production.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\SetupModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\System.Web.Optimization.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\System.Web.Providers.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\WebGrease.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\Production.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\SetupModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\EntityFramework.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\DotNetOpenAuth.Core.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\DotNetOpenAuth.OAuth.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\DotNetOpenAuth.OpenId.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\bin\DotNetOpenAuth.AspNet.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\obj\Release\TechnoDrugs.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\obj\Release\TechnoDrugs.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\TechnoDrugs\obj\Release\TechnoDrugs.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\TechnoDrugs.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\TechnoDrugs.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\Antlr3.Runtime.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\DotNetOpenAuth.AspNet.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\DotNetOpenAuth.Core.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\DotNetOpenAuth.OAuth.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\DotNetOpenAuth.OpenId.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\EntityFramework.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\Microsoft.Web.Infrastructure.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\Production.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\SetupModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\System.Web.Optimization.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\System.Web.Providers.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\WebGrease.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\Production.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\SetupModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\EntityFramework.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\DotNetOpenAuth.Core.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\DotNetOpenAuth.OAuth.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\DotNetOpenAuth.OpenId.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\DotNetOpenAuth.AspNet.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\obj\Release\TechnoDrugs.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\obj\Release\TechnoDrugs.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\obj\Release\TechnoDrugs.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\Newtonsoft.Json.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\Newtonsoft.Json.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\TechnodrugsModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\TechnodrugsModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\InventoryModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\TechnoDrugs\bin\InventoryModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\TechnoDrugs.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\TechnoDrugs.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\Antlr3.Runtime.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\DotNetOpenAuth.AspNet.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\DotNetOpenAuth.Core.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\DotNetOpenAuth.OAuth.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\DotNetOpenAuth.OpenId.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\EntityFramework.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\InventoryModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\Microsoft.Web.Infrastructure.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\Newtonsoft.Json.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\Production.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\SetupModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\System.Web.Optimization.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\System.Web.Providers.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\TechnodrugsModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\WebGrease.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\InventoryModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\Production.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\SetupModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\TechnodrugsModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\Newtonsoft.Json.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\EntityFramework.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\DotNetOpenAuth.Core.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\DotNetOpenAuth.OAuth.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\DotNetOpenAuth.OpenId.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\bin\DotNetOpenAuth.AspNet.xml
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\obj\Release\TechnoDrugs.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\obj\Release\TechnoDrugs.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\TechnoDrugs\obj\Release\TechnoDrugs.pdb

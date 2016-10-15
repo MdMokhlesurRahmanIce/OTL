@@ -1,0 +1,83 @@
+﻿/*!  
+Author: Aslam Iqbal
+Created: 03 March, 2013
+ */
+
+
+.validationbox
+{
+    padding: 1px 3px 3px 26px;
+    height:24px;
+    vertical-align: middle;
+    font-size: large;
+    font-weight: bold;
+    line-height: 40px;
+    background-color: #F7F7F7;
+}
+/*page label*/
+.errorstyle
+{
+    padding: 1px 3px 3px 26px;
+    height: 24px;
+    background-color: #F7F7F7;
+    color: #C76E6D;
+    text-align: left;
+    vertical-align: middle;
+    font-size: medium;
+}
+.successstyle
+{
+    padding: 5px;
+    height: 18px;
+    background-color: #DFF0D8;
+    color: #468847;
+    text-align: center;
+    vertical-align: middle;
+    font-size: medium;
+}
+
+.warningstyle
+{
+    padding: 5px;
+    height: 18px;
+    background-color: #FCF8E3;
+    color: #C09853;
+    text-align: center;
+    vertical-align: middle;
+    font-size: medium;
+}
+.formtitle
+{
+    font-size: xx-large;
+    text-align: left;
+    background-color: #F7F7F7;
+    padding: 5px;
+    height: 40px;
+}
+/*page label*/
+.numeric
+{
+    text-align: right;
+}
+
+.inputerror
+{
+    background-color: #eebcbd;
+    color: #f3e2e2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#eebcbd', endColorstr='#f3e2e2')";
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #f3e2e2),color-stop(1, #eebcbd)); /* Safari & Chrome */
+}
+
+.inputerror-focus
+{
+    box-shadow: 0 0 10px #d3879e;
+    -webkit-box-shadow: 0 0 20px #d3879e; /* for Safari and Chrome */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f3e2e2', endColorstr='#eebcbd')";
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #f3e2e2),color-stop(1, #eebcbd)); /* Safari & Chrome */
+}
+.require
+{
+}
+.validateonclick
+{
+}

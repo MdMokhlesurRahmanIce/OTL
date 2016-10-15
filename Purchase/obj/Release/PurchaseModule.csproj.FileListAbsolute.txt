@@ -1,0 +1,45 @@
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\bin\Release\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\bin\Release\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\bin\Release\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\bin\Release\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\bin\Release\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\bin\Release\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\obj\Release\PurchaseModule.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\obj\Release\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\obj\Release\Purchase.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\bin\Release\Purchase.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\bin\Release\Purchase.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\bin\Release\BaseModule.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\bin\Release\SecurityModule.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\bin\Release\BaseModule.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\bin\Release\SecurityModule.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\obj\Release\PurchaseModule.csprojResolveAssemblyReference.cache
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\obj\Release\Purchase.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\obj\Release\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Release\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Release\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Release\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Release\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Release\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Release\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\obj\Release\PurchaseModule.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\obj\Release\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\obj\Release\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\Purchase\bin\Release\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\Purchase\bin\Release\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\Purchase\bin\Release\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\Purchase\bin\Release\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\Purchase\bin\Release\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\Purchase\bin\Release\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\Purchase\obj\Release\PurchaseModule.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\Purchase\obj\Release\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Development Veriosn\Purchase\obj\Release\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\bin\Release\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\bin\Release\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\bin\Release\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\bin\Release\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\bin\Release\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\bin\Release\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\obj\Release\PurchaseModule.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\obj\Release\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\obj\Release\Purchase.pdb

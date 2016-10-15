@@ -1,0 +1,129 @@
+﻿
+body {
+    background-color: #3E6BA2;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 100%;
+    width: 100%;
+}
+
+#wrapper {
+    display: block;
+    height: 1px;
+    left: 0;
+    overflow: visible;
+    position:absolute;
+   
+    top:15%;
+    visibility: visible;
+    width: 100%;
+}
+#container {
+    height: 472px;
+    left: 50%;
+    margin-left: -195px;
+    position: absolute;
+ 
+    visibility: visible;
+    width: 390px;
+}
+
+img#logo {
+    display: block;
+    margin: 10px 0 14px 57px;
+    -webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+    
+}
+div.login
+{
+    vertical-align:middle;
+   
+}
+
+#container form {
+    background: url("images/login-bg.png") no-repeat scroll left top #FFFFFF;
+    border: 1px solid #E2E6D8;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 2px 10px 1px #E7EED8;
+    height: 305px;
+    padding: 45px 40px 0;
+    position: relative;
+    width: 308px;
+
+}
+#container input {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 5px #E8E8E8 inset;
+    font-size: 16px;
+    margin: 0 0 40px;
+    padding: 13px 10px;
+    width: 286px;
+}
+#container input {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 5px #E8E8E8 inset;
+    font-size: 14px;
+    margin: 0 0 40px;
+    padding: 13px 10px;
+    width: 286px;
+}
+#container label, #lblUserName, #lblPassword {
+    color: #252525;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+div.login {
+    vertical-align: middle;
+}
+#btnSubmit {
+    -moz-user-select: none;
+    background-clip: padding-box;
+    background-color: #89AD40;
+    background-image: -moz-linear-gradient(center top , #3E6BA2, #3E6BA2);
+    border: 1px solid #5F772C;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    height:48px;
+    outline: medium none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #627B2E;
+    width:110px !important;
+}
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+input, textarea, select  {
+	border:1px solid #c1c5c6;
+	}
+	input:focus, textarea:focus, select:focus  {
+		background-color:red;
+		}

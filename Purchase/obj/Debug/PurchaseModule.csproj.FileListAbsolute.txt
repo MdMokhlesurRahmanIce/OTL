@@ -1,0 +1,108 @@
+D:\C# and asp.net\Projects\TechnoDrugs\TechnoDrugs - User control\Purchase\bin\Debug\Purchase.dll
+D:\C# and asp.net\Projects\TechnoDrugs\TechnoDrugs - User control\Purchase\bin\Debug\Purchase.pdb
+D:\C# and asp.net\Projects\TechnoDrugs\TechnoDrugs - User control\Purchase\bin\Debug\BaseModule.dll
+D:\C# and asp.net\Projects\TechnoDrugs\TechnoDrugs - User control\Purchase\bin\Debug\SecurityModule.dll
+D:\C# and asp.net\Projects\TechnoDrugs\TechnoDrugs - User control\Purchase\bin\Debug\BaseModule.pdb
+D:\C# and asp.net\Projects\TechnoDrugs\TechnoDrugs - User control\Purchase\bin\Debug\SecurityModule.pdb
+D:\C# and asp.net\Projects\TechnoDrugs\TechnoDrugs - User control\Purchase\obj\Debug\PurchaseModule.csprojResolveAssemblyReference.cache
+D:\C# and asp.net\Projects\TechnoDrugs\TechnoDrugs - User control\Purchase\obj\Debug\Purchase.dll
+D:\C# and asp.net\Projects\TechnoDrugs\TechnoDrugs - User control\Purchase\obj\Debug\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\bin\Debug\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\bin\Debug\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\bin\Debug\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\bin\Debug\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\bin\Debug\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\bin\Debug\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\obj\Debug\PurchaseModule.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\obj\Debug\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - User control\Purchase\obj\Debug\Purchase.pdb
+D:\C# and asp.net\Projects\TechnoDrugs\Purchase\bin\Debug\Purchase.dll
+D:\C# and asp.net\Projects\TechnoDrugs\Purchase\bin\Debug\Purchase.pdb
+D:\C# and asp.net\Projects\TechnoDrugs\Purchase\bin\Debug\BaseModule.dll
+D:\C# and asp.net\Projects\TechnoDrugs\Purchase\bin\Debug\SecurityModule.dll
+D:\C# and asp.net\Projects\TechnoDrugs\Purchase\bin\Debug\BaseModule.pdb
+D:\C# and asp.net\Projects\TechnoDrugs\Purchase\bin\Debug\SecurityModule.pdb
+D:\C# and asp.net\Projects\TechnoDrugs\Purchase\obj\Debug\PurchaseModule.csprojResolveAssemblyReference.cache
+D:\C# and asp.net\Projects\TechnoDrugs\Purchase\obj\Debug\Purchase.dll
+D:\C# and asp.net\Projects\TechnoDrugs\Purchase\obj\Debug\Purchase.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-11-8-2014\Purchase\obj\Debug\PurchaseModule.csprojResolveAssemblyReference.cache
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-11-8-2014\Purchase\obj\Debug\Purchase.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-11-8-2014\Purchase\bin\Debug\Purchase.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-11-8-2014\Purchase\bin\Debug\Purchase.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-11-8-2014\Purchase\bin\Debug\BaseModule.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-11-8-2014\Purchase\bin\Debug\SecurityModule.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-11-8-2014\Purchase\bin\Debug\BaseModule.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-11-8-2014\Purchase\bin\Debug\SecurityModule.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-11-8-2014\Purchase\obj\Debug\Purchase.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - 14-8-2014\TechnoDrugs\Purchase\bin\Debug\Purchase.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - 14-8-2014\TechnoDrugs\Purchase\bin\Debug\Purchase.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - 14-8-2014\TechnoDrugs\Purchase\bin\Debug\BaseModule.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - 14-8-2014\TechnoDrugs\Purchase\bin\Debug\SecurityModule.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - 14-8-2014\TechnoDrugs\Purchase\bin\Debug\BaseModule.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - 14-8-2014\TechnoDrugs\Purchase\bin\Debug\SecurityModule.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - 14-8-2014\TechnoDrugs\Purchase\obj\Debug\PurchaseModule.csprojResolveAssemblyReference.cache
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - 14-8-2014\TechnoDrugs\Purchase\obj\Debug\Purchase.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - 14-8-2014\TechnoDrugs\Purchase\obj\Debug\Purchase.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\bin\Debug\Purchase.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\bin\Debug\Purchase.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\bin\Debug\BaseModule.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\bin\Debug\SecurityModule.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\bin\Debug\BaseModule.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\bin\Debug\SecurityModule.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\obj\Debug\PurchaseModule.csprojResolveAssemblyReference.cache
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\obj\Debug\Purchase.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs-20-8-2014\Purchase\obj\Debug\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Debug\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Debug\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Debug\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Debug\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Debug\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\bin\Debug\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\obj\Debug\PurchaseModule.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\obj\Debug\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs\Purchase\obj\Debug\Purchase.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - Development Veriosn\Purchase\bin\Debug\Purchase.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - Development Veriosn\Purchase\bin\Debug\Purchase.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - Development Veriosn\Purchase\bin\Debug\BaseModule.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - Development Veriosn\Purchase\bin\Debug\SecurityModule.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - Development Veriosn\Purchase\bin\Debug\BaseModule.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - Development Veriosn\Purchase\bin\Debug\SecurityModule.pdb
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - Development Veriosn\Purchase\obj\Debug\PurchaseModule.csprojResolveAssemblyReference.cache
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - Development Veriosn\Purchase\obj\Debug\Purchase.dll
+D:\C# and asp.net\Projects\Techno Drugs Backup\TechnoDrugs - Development Veriosn\Purchase\obj\Debug\Purchase.pdb
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\Purchase\bin\Debug\Purchase.dll
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\Purchase\bin\Debug\Purchase.pdb
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\Purchase\bin\Debug\BaseModule.dll
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\Purchase\bin\Debug\SecurityModule.dll
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\Purchase\bin\Debug\BaseModule.pdb
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\Purchase\bin\Debug\SecurityModule.pdb
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\Purchase\obj\Debug\PurchaseModule.csprojResolveAssemblyReference.cache
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\Purchase\obj\Debug\Purchase.dll
+C:\Users\monir\Desktop\TechnoDrugs - Development Veriosn\Purchase\obj\Debug\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\bin\Debug\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\bin\Debug\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\bin\Debug\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\bin\Debug\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\bin\Debug\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\bin\Debug\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\obj\Debug\Purchase.dll
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\obj\Debug\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TechnoDrugs - Working Copy\Purchase\obj\Debug\PurchaseModule.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\Purchase\bin\Debug\Purchase.dll
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\Purchase\bin\Debug\Purchase.pdb
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\Purchase\bin\Debug\BaseModule.dll
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\Purchase\bin\Debug\SecurityModule.dll
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\Purchase\bin\Debug\BaseModule.pdb
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\Purchase\bin\Debug\SecurityModule.pdb
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\Purchase\obj\Debug\PurchaseModule.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\Purchase\obj\Debug\Purchase.dll
+E:\Techno Drugs - Software Requirement\TDL - Personal Office Copy\TechnoDrugs - User Authentication Test\Purchase\obj\Debug\Purchase.pdb
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\Purchase\bin\Debug\Purchase.dll
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\Purchase\bin\Debug\Purchase.pdb
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\Purchase\bin\Debug\BaseModule.dll
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\Purchase\bin\Debug\SecurityModule.dll
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\Purchase\bin\Debug\BaseModule.pdb
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\Purchase\bin\Debug\SecurityModule.pdb
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\Purchase\obj\Debug\PurchaseModule.csprojResolveAssemblyReference.cache
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\Purchase\obj\Debug\Purchase.dll
+E:\Project_Update_Monir_Via\TechnoDrugs - User Authentication Test\TechnoDrugs - User Authentication Test\Purchase\obj\Debug\Purchase.pdb

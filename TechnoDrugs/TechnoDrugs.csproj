@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A8BF7642-9588-429B-B792-7EDBD8626697}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TechnoDrugs</RootNamespace>
+    <AssemblyName>TechnoDrugs</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=1.7.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery.UI.Combined, Version=1.8.20.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AspNet.ScriptManager.jQuery.UI.Combined.dll</HintPath>
+    </Reference>
+    <Reference Include="CRVsPackageLib, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.TemplateEngine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Viewing.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommLayer, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonControls, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonObjectModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Controllers, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CubeDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataSetConversion, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportAppServer.ObjectFactory, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Prompting, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.XmlSerialize, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.VSDesigner, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.7\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax, Version=4.5.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.4.5.6\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms, Version=4.5.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.4.5.6\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.1\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.0.3.12153\lib\net40-full\DotNetOpenAuth.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Membership.OpenAuth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Membership.OpenAuth.1.0.0\lib\net45\Microsoft.AspNet.Membership.OpenAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.0.0\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Images\calendar-schedulehs.png" />
+    <Content Include="Images\CancelIco.png" />
+    <Content Include="Images\erp_main.jpg" />
+    <Content Include="Images\heroAccent.png" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\loadingAnim.gif" />
+    <Content Include="Images\Search20X20.png" />
+    <Content Include="Images\Technodrugs.png" />
+    <Content Include="packages.config" />
+    <Content Include="Reports\ReportUI\BOEReportUI.aspx" />
+    <Content Include="Reports\ReportUI\DeliveryChallanReportUI.aspx" />
+    <Content Include="Reports\ReportUI\GeneralReportViewerUI.aspx" />
+    <Content Include="Reports\ReportUI\LCReportUI.aspx" />
+    <Content Include="Reports\ReportUI\ProductCurrentStockReportUI.aspx" />
+    <Content Include="Reports\ReportUI\ProductionRequisitionReportUI.aspx" />
+    <Content Include="Reports\ReportUI\PurchaseOrderReportUI.aspx" />
+    <Content Include="Reports\ReportUI\QAReportUI.aspx" />
+    <Content Include="Reports\ReportUI\RequisitionReportUI.aspx" />
+    <Content Include="Reports\ReportUI\SupplierReportUI.aspx" />
+    <Content Include="Scripts\jquery-1.3.2.min.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <None Include="Properties\PublishProfiles\technodrugs.pubxml" />
+    <None Include="Scripts\jquery-1.8.3-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.8.3.js" />
+    <Content Include="Scripts\jquery-1.8.3.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.2.custom.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.6.custom.css" />
+    <Content Include="Scripts\jquery-ui-timepicker-addon.js" />
+    <Content Include="Scripts\jquery.blockUI.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.ui.core.js" />
+    <Content Include="Scripts\jquery.ui.datepicker-af.js" />
+    <Content Include="Scripts\jquery.ui.datepicker.js" />
+    <Content Include="Scripts\jquery.ui.widget.js" />
+    <Content Include="Scripts\Validation.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\jquery-ui.min.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Style\bootstrap.css" />
+    <Content Include="Style\CSS.css" />
+    <Content Include="Style\design.css" />
+    <Content Include="Style\jquery-ui-1.8.17.custom.css" />
+    <Content Include="Style\LogIn.css" />
+    <Content Include="Style\menu.css" />
+    <Content Include="Style\ValidationStyle.css" />
+    <Content Include="UI\Inventory\CheckIndividualPresentStockUI.aspx" />
+    <Content Include="UI\Inventory\DamagedProductEntryUI.aspx" />
+    <Content Include="UI\Inventory\OtherOutEntryUI.aspx" />
+    <Content Include="UI\Production\EngineeringRequisitionUI.aspx" />
+    <Content Include="UI\Production\FinishedProductsUI.aspx" />
+    <Content Include="UI\Production\ProductionRequisitionUI.aspx" />
+    <Content Include="UI\Production\QAQCRequisitionUI.aspx" />
+    <Content Include="UI\Production\ReturnRejectEntryUI.aspx" />
+    <Content Include="UI\Production\SendToHeadOfficeUI.aspx" />
+    <Content Include="UI\Purchase\BOEInfoUI.aspx" />
+    <Content Include="UI\Purchase\DeliveryChallanUI.aspx" />
+    <Content Include="UI\Purchase\GeneralSearch.aspx" />
+    <Content Include="UI\Purchase\OpenLCUI.aspx" />
+    <Content Include="UI\Purchase\ProductSearch.ascx" />
+    <Content Include="UI\Purchase\PurchaseOrderUI.aspx" />
+    <Content Include="UI\Security\DatabaseBackup.aspx" />
+    <Content Include="UI\Security\GroupUserUI.aspx" />
+    <Content Include="UI\Security\IndexUI.aspx" />
+    <Content Include="UI\Security\LogInUI.aspx" />
+    <Content Include="UI\Security\UserPageControlsUI.aspx" />
+    <Content Include="UI\Security\UserUI.aspx" />
+    <Content Include="UI\Setup\EmpTest.aspx" />
+    <Content Include="UI\Setup\ProductOpeningUI.aspx" />
+    <Content Include="UI\Setup\ProductPackSizeUI.aspx" />
+    <Content Include="UI\Setup\ProductUI.aspx" />
+    <Content Include="UI\Purchase\RequisitionUI.aspx" />
+    <Content Include="UI\Setup\SuppliersUI.aspx" />
+    <None Include="Web.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Bundle.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\AuthConfig.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\MessageHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\ReportDoc\AllProductStockReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllProductStockReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\DeliveryChallanReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DeliveryChallanReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\BOEDetailReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BOEDetailReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\BOESummaryReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BOESummaryReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\EngInternalRequiReportDoc.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EngInternalRequiReportDoc.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\LCDetailReportDoc.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LCDetailReportDoc.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\LCSummaryReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LCSummaryReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\MsgCReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MsgCReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\ProductCurrentStockReport_Single.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductCurrentStockReport_Single.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\ProductionRequisitionReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductionRequisitionReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\PurchaseOrderDetailReportDoc1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseOrderDetailReportDoc.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\PurchaseOrderReportDoc.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseOrderReportDoc.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\QAReportDoc.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QAReportDoc.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\SupplierProductReportDoc.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierProductReportDoc.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportDoc\SupplierReportDoc.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierReportDoc.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportEntity\DeliveryChallanReportEntity.cs" />
+    <Compile Include="Reports\ReportEntity\BOEDetailReportEntity.cs" />
+    <Compile Include="Reports\ReportEntity\EngInternalRequiReportEntity.cs" />
+    <Compile Include="Reports\ReportEntity\LCSummaryReportEntity.cs" />
+    <Compile Include="Reports\ReportEntity\BOESummaryReportEntity.cs" />
+    <Compile Include="Reports\ReportEntity\LCDetailReportEntity.cs" />
+    <Compile Include="Reports\ReportEntity\ProductCurrentStockReportEntity.cs" />
+    <Compile Include="Reports\ReportEntity\ProductionRequisitionReportEntity.cs" />
+    <Compile Include="Reports\ReportEntity\PurchaseOrderReportEntity.cs" />
+    <Compile Include="Reports\ReportEntity\QAReportEntity.cs" />
+    <Compile Include="Reports\ReportEntity\ReportHelper.cs" />
+    <Compile Include="Reports\ReportEntity\RequisitionReportEntity.cs" />
+    <Compile Include="Reports\ReportEntity\SupplierReportEntity.cs" />
+    <Compile Include="Reports\ReportUI\BOEReportUI.aspx.cs">
+      <DependentUpon>BOEReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportUI\BOEReportUI.aspx.designer.cs">
+      <DependentUpon>BOEReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportUI\DeliveryChallanReportUI.aspx.cs">
+      <DependentUpon>DeliveryChallanReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportUI\DeliveryChallanReportUI.aspx.designer.cs">
+      <DependentUpon>DeliveryChallanReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportUI\GeneralReportViewerUI.aspx.cs">
+      <DependentUpon>GeneralReportViewerUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportUI\GeneralReportViewerUI.aspx.designer.cs">
+      <DependentUpon>GeneralReportViewerUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportUI\LCReportUI.aspx.cs">
+      <DependentUpon>LCReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportUI\LCReportUI.aspx.designer.cs">
+      <DependentUpon>LCReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportUI\ProductCurrentStockReportUI.aspx.cs">
+      <DependentUpon>ProductCurrentStockReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportUI\ProductCurrentStockReportUI.aspx.designer.cs">
+      <DependentUpon>ProductCurrentStockReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportUI\ProductionRequisitionReportUI.aspx.cs">
+      <DependentUpon>ProductionRequisitionReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportUI\ProductionRequisitionReportUI.aspx.designer.cs">
+      <DependentUpon>ProductionRequisitionReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportUI\PurchaseOrderReportUI.aspx.cs">
+      <DependentUpon>PurchaseOrderReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportUI\PurchaseOrderReportUI.aspx.designer.cs">
+      <DependentUpon>PurchaseOrderReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportUI\QAReportUI.aspx.cs">
+      <DependentUpon>QAReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportUI\QAReportUI.aspx.designer.cs">
+      <DependentUpon>QAReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportUI\RequisitionReportUI.aspx.cs">
+      <DependentUpon>RequisitionReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportUI\RequisitionReportUI.aspx.designer.cs">
+      <DependentUpon>RequisitionReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportUI\SupplierReportUI.aspx.cs">
+      <DependentUpon>SupplierReportUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportUI\SupplierReportUI.aspx.designer.cs">
+      <DependentUpon>SupplierReportUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Inventory\CheckIndividualPresentStockUI.aspx.cs">
+      <DependentUpon>CheckIndividualPresentStockUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Inventory\CheckIndividualPresentStockUI.aspx.designer.cs">
+      <DependentUpon>CheckIndividualPresentStockUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Inventory\DamagedProductEntryUI.aspx.cs">
+      <DependentUpon>DamagedProductEntryUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Inventory\DamagedProductEntryUI.aspx.designer.cs">
+      <DependentUpon>DamagedProductEntryUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Inventory\OtherOutEntryUI.aspx.cs">
+      <DependentUpon>OtherOutEntryUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Inventory\OtherOutEntryUI.aspx.designer.cs">
+      <DependentUpon>OtherOutEntryUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Production\EngineeringRequisitionUI.aspx.cs">
+      <DependentUpon>EngineeringRequisitionUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Production\EngineeringRequisitionUI.aspx.designer.cs">
+      <DependentUpon>EngineeringRequisitionUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Production\FinishedProductsUI.aspx.cs">
+      <DependentUpon>FinishedProductsUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Production\FinishedProductsUI.aspx.designer.cs">
+      <DependentUpon>FinishedProductsUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Production\ProductionRequisitionUI.aspx.cs">
+      <DependentUpon>ProductionRequisitionUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Production\ProductionRequisitionUI.aspx.designer.cs">
+      <DependentUpon>ProductionRequisitionUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Production\QAQCRequisitionUI.aspx.cs">
+      <DependentUpon>QAQCRequisitionUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Production\QAQCRequisitionUI.aspx.designer.cs">
+      <DependentUpon>QAQCRequisitionUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Production\ReturnRejectEntryUI.aspx.cs">
+      <DependentUpon>ReturnRejectEntryUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Production\ReturnRejectEntryUI.aspx.designer.cs">
+      <DependentUpon>ReturnRejectEntryUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Production\SendToHeadOfficeUI.aspx.cs">
+      <DependentUpon>SendToHeadOfficeUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Production\SendToHeadOfficeUI.aspx.designer.cs">
+      <DependentUpon>SendToHeadOfficeUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Purchase\BOEInfoUI.aspx.cs">
+      <DependentUpon>BOEInfoUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Purchase\BOEInfoUI.aspx.designer.cs">
+      <DependentUpon>BOEInfoUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Purchase\DeliveryChallanUI.aspx.cs">
+      <DependentUpon>DeliveryChallanUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Purchase\DeliveryChallanUI.aspx.designer.cs">
+      <DependentUpon>DeliveryChallanUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Purchase\GeneralSearch.aspx.cs">
+      <DependentUpon>GeneralSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Purchase\GeneralSearch.aspx.designer.cs">
+      <DependentUpon>GeneralSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Purchase\OpenLCUI.aspx.cs">
+      <DependentUpon>OpenLCUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Purchase\OpenLCUI.aspx.designer.cs">
+      <DependentUpon>OpenLCUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Purchase\ProductSearch.ascx.cs">
+      <DependentUpon>ProductSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Purchase\ProductSearch.ascx.designer.cs">
+      <DependentUpon>ProductSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Purchase\PurchaseOrderUI.aspx.cs">
+      <DependentUpon>PurchaseOrderUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Purchase\PurchaseOrderUI.aspx.designer.cs">
+      <DependentUpon>PurchaseOrderUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Security\DatabaseBackup.aspx.cs">
+      <DependentUpon>DatabaseBackup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Security\DatabaseBackup.aspx.designer.cs">
+      <DependentUpon>DatabaseBackup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Security\GroupUserUI.aspx.cs">
+      <DependentUpon>GroupUserUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Security\GroupUserUI.aspx.designer.cs">
+      <DependentUpon>GroupUserUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Security\IndexUI.aspx.cs">
+      <DependentUpon>IndexUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Security\IndexUI.aspx.designer.cs">
+      <DependentUpon>IndexUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Security\LogInUI.aspx.cs">
+      <DependentUpon>LogInUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Security\LogInUI.aspx.designer.cs">
+      <DependentUpon>LogInUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Security\UserPageControlsUI.aspx.cs">
+      <DependentUpon>UserPageControlsUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Security\UserPageControlsUI.aspx.designer.cs">
+      <DependentUpon>UserPageControlsUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Security\UserUI.aspx.cs">
+      <DependentUpon>UserUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Security\UserUI.aspx.designer.cs">
+      <DependentUpon>UserUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Setup\EmpTest.aspx.cs">
+      <DependentUpon>EmpTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Setup\EmpTest.aspx.designer.cs">
+      <DependentUpon>EmpTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Setup\ProductOpeningUI.aspx.cs">
+      <DependentUpon>ProductOpeningUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Setup\ProductOpeningUI.aspx.designer.cs">
+      <DependentUpon>ProductOpeningUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Setup\ProductPackSizeUI.aspx.cs">
+      <DependentUpon>ProductPackSizeUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Setup\ProductPackSizeUI.aspx.designer.cs">
+      <DependentUpon>ProductPackSizeUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Setup\ProductUI.aspx.cs">
+      <DependentUpon>ProductUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Setup\ProductUI.aspx.designer.cs">
+      <DependentUpon>ProductUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Purchase\RequisitionUI.aspx.cs">
+      <DependentUpon>RequisitionUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Purchase\RequisitionUI.aspx.designer.cs">
+      <DependentUpon>RequisitionUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Setup\SuppliersUI.aspx.cs">
+      <DependentUpon>SuppliersUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Setup\SuppliersUI.aspx.designer.cs">
+      <DependentUpon>SuppliersUI.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseModule\BaseModule.csproj">
+      <Project>{051e3372-cd11-40ba-a6c9-addfa1661873}</Project>
+      <Name>BaseModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InventoryModule\InventoryModule.csproj">
+      <Project>{7421bfc7-d02a-47cd-aa3b-b1a4981f93a7}</Project>
+      <Name>InventoryModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Production\ProductionModule.csproj">
+      <Project>{2f2cc172-bde7-49de-9668-23f2ed166d21}</Project>
+      <Name>ProductionModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Purchase\PurchaseModule.csproj">
+      <Project>{1187a97e-4bc9-4c82-85dc-5790b018fa48}</Project>
+      <Name>PurchaseModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SecurityModule\SecurityModule.csproj">
+      <Project>{3ed44a6d-94df-425a-b84b-e968c133afc0}</Project>
+      <Name>SecurityModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SetupModule\SetupModule.csproj">
+      <Project>{047fa1ae-aa83-4ad8-bc34-f502ac123ca2}</Project>
+      <Name>SetupModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TechnodrugsModule\TechnodrugsModule.csproj">
+      <Project>{18f39ba8-baa4-4643-bb72-74aeb8e20892}</Project>
+      <Name>TechnodrugsModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\ReportDoc\RequisitionReportDoc.rpt" />
+    <Content Include="Reports\ReportDoc\DeliveryChallanReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DeliveryChallanReport.cs</LastGenOutput>
+    </Content>
+    <Content Include="Reports\ReportDoc\PurchaseOrderReportDoc.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PurchaseOrderReportDoc.cs</LastGenOutput>
+    </Content>
+    <Content Include="Reports\ReportDoc\SupplierReportDoc.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SupplierReportDoc.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\ReportDoc\MsgCReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MsgCReport1.cs</LastGenOutput>
+    </Content>
+    <Content Include="Reports\ReportDoc\ProductionRequisitionReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProductionRequisitionReport.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\ReportDoc\BOEDetailReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BOEDetailReport.cs</LastGenOutput>
+    </Content>
+    <Content Include="Reports\ReportDoc\BOESummaryReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BOESummaryReport.cs</LastGenOutput>
+    </Content>
+    <Content Include="Reports\ReportDoc\LCDetailReportDoc.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LCDetailReportDoc.cs</LastGenOutput>
+    </Content>
+    <Content Include="Reports\ReportDoc\LCSummaryReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LCSummaryReport.cs</LastGenOutput>
+    </Content>
+    <Content Include="Reports\ReportDoc\AllProductStockReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AllProductStockReport.cs</LastGenOutput>
+    </Content>
+    <Content Include="Reports\ReportDoc\EngInternalRequiReportDoc.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EngInternalRequiReportDoc.cs</LastGenOutput>
+    </Content>
+    <Content Include="Reports\ReportDoc\ProductCurrentStockReport_Single.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProductCurrentStockReport_Single.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="Reports\ReportDoc\PurchaseOrderDetailReportDoc.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PurchaseOrderDetailReportDoc1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="Reports\ReportDoc\QAReportDoc.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>QAReportDoc.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="Reports\ReportDoc\SupplierProductReportDoc.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SupplierProductReportDoc.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>14217</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2382/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

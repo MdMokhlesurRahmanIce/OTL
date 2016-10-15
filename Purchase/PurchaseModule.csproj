@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1187A97E-4BC9-4C82-85DC-5790B018FA48}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Purchase</RootNamespace>
+    <AssemblyName>Purchase</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess\BOEDataAccess.cs" />
+    <Compile Include="DataAccess\BOEDetailDataAccess.cs" />
+    <Compile Include="DataAccess\DeliveryChallanDataAccess.cs" />
+    <Compile Include="DataAccess\DeliveryChallanDetailDataAccess.cs" />
+    <Compile Include="DataAccess\LCDataAccess.cs" />
+    <Compile Include="DataAccess\LCDetailDataAccess.cs" />
+    <Compile Include="DataAccess\PurchaseOrderDataAccess.cs" />
+    <Compile Include="DataAccess\PurchaseOrderDetailDataAccess.cs" />
+    <Compile Include="DataAccess\RequisitionDetailDataAccess.cs" />
+    <Compile Include="DataAccess\RequisitionDataAccess.cs" />
+    <Compile Include="DataAccess\TAXInfoDataAccess.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\BaseProvider.cs" />
+    <Compile Include="Provider\BOEDetailProvider.cs" />
+    <Compile Include="Provider\BOEProvider.cs" />
+    <Compile Include="Provider\DeliveryChallanDetailProvider.cs" />
+    <Compile Include="Provider\DeliveryChallanProvider.cs" />
+    <Compile Include="Provider\LCDetailProvider.cs" />
+    <Compile Include="Provider\LCProvider.cs" />
+    <Compile Include="Provider\PurchaseOrderDetailProvider.cs" />
+    <Compile Include="Provider\PurchaseOrderProvider.cs" />
+    <Compile Include="Provider\RequisitionDetailProvider.cs" />
+    <Compile Include="Provider\RequisitionProvider.cs" />
+    <Compile Include="Provider\TAXInfoProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseModule\BaseModule.csproj">
+      <Project>{051e3372-cd11-40ba-a6c9-addfa1661873}</Project>
+      <Name>BaseModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SecurityModule\SecurityModule.csproj">
+      <Project>{3ed44a6d-94df-425a-b84b-e968c133afc0}</Project>
+      <Name>SecurityModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
